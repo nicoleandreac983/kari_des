@@ -4,5 +4,5 @@ class Picture < ApplicationRecord
 
   validates :url, presence: true
   validates :context, presence: true
-
+  validates :name, presence: true
 end

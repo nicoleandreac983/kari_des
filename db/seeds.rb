@@ -6,6 +6,6 @@ karina = User.create!(
         email: 'karina@mail.com',
         password: '123456',
         password_confirmation: '123456',
-        role: 2,
+        role: 'admin',
         avatar: karina_avatar
 )

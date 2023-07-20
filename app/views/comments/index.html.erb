@@ -1,0 +1,7 @@
+<% @comments.each do |comment| %>
+  <div class="comment">
+    <%= image_tag comment.user.avatar.url, class: "avatar" %>
+    <p><strong><%= comment.user.name %></strong></p>
+    <p><%= comment.content %></p>
+  </div>
+<% end %>
